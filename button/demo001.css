@@ -1,0 +1,15 @@
+
+.demo001_001_wrap label{
+    cursor: pointer;
+    padding:5px;
+    border: 1px solid #434343;
+    border-radius: 5px;
+  }
+input{
+    display: none;
+}
+
+.demo001_check_box:checked + .demo001_check_box_label{
+    background-color: coral;
+    padding:0 100px;
+}
