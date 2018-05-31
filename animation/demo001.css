@@ -1,0 +1,34 @@
+.demo_001_main_box_wrap{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.demo_001_wrap_001{
+    width: 33%;
+    height: 33%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:absolute;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+}
+.demo_001_wrap_002{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:33%;
+    z-index: 3;
+}
+
+.rotate-anime {
+    animation: rotate-anime 3s linear infinite;
+    }
+    @keyframes rotate-anime {
+    0%  {transform: rotate(0);}
+    100%  {transform: rotate(360deg);}
+    }
